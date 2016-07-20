@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title> Drag and Drop Game</title>
+	<link rel="stylesheet" href="style.css" />
+	<script src="jquery.js"></script>
+	<script src="jquery-ui.js"></script>
+
+</head>
+<body>
+	<header>
+		<a href="index.html" class="brand"> Drag Game</a>	
+	</header>
+
+	<section class="main">
+		<div id="dropArea">
+			<div class="droppable">
+				<span>Drop Timer Here to start</span>
+			</div>
+			<img src="Wooden_hourglass_3.jpg" alt="Hour Glass">
+		</div>
+
+		<div id="puzzle">
+				<div id="timer">
+					<h1>
+						00:<span>30</span>
+					</h1>
+				</div>
+			<div id="pieces">
+				<div class="img-wrap">
+					<img src="1.jpeg" class="p-p" data-block="2" alt="">
+				</div>
+				<div class="img-wrap">
+					<img src="2.jpeg" class="p-p" data-block="1" alt="">
+				</div>
+				<div class="img-wrap">
+					<img src="4.jpeg" class="p-p" data-block="4" alt="">
+				</div>
+				<div class="img-wrap">
+					<img src="3.jpeg" class="p-p" data-block="3" alt="">
+				</div>
+			</div>
+
+			<div id="canvas">
+				<div class="inside">
+					<span id="1" class="block"></span>
+					<span id="2" class="block"></span>
+					<span id="3" class="block"></span>
+					<span id="4" class="block"></span>
+				</div>
+			</div>
+
+		</div>
+
+		<div id="pop">
+			
+		</div>
+
+		<div style="clear:both"></div>
+
+
+
+	<script src="script.js"></script>
+	</section>
+</body>
+</html>
